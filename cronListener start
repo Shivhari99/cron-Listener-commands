@@ -1,0 +1,33 @@
+$ lsnrctl start
+
+LSNRCTL for Linux: Version 11.1.0.6.0 - Production on 04-APR-2009 16:27:42
+
+Copyright (c) 1991, 2007, Oracle.  All rights reserved.
+
+Starting /u01/app/oracle/product/11.1.0/bin/tnslsnr: please wait...
+
+TNSLSNR for Linux: Version 11.1.0.6.0 - Production
+System parameter file is /u01/app/oracle/product/11.1.0/network/admin/listener.ora
+Log messages written to /u01/app/oracle/diag/tnslsnr/devdb/listener/alert/log.xml
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=192.168.1.2)(PORT=1521)))
+Listening on: (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC)))
+
+Connecting to (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1521)))
+STATUS of the LISTENER
+------------------------
+Alias                     LISTENER
+Version                   TNSLSNR for Linux: Version 11.1.0.6.0 - Production
+Start Date                04-APR-2009 16:27:42
+Uptime                    0 days 0 hr. 0 min. 0 sec
+Trace Level               off
+Security                  ON: Local OS Authentication
+SNMP                      OFF
+Listener Parameter File   /u01/app/oracle/product/11.1.0/network/admin/listener.ora
+Listener Log File         /u01/app/oracle/diag/tnslsnr/devdb/listener/alert/log.xml
+Listening Endpoints Summary...
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)(HOST=192.168.1.2)(PORT=1521)))
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=ipc)(KEY=EXTPROC)))
+Services Summary...
+Service "devdb" has 1 instance(s).
+  Instance "devdb", status UNKNOWN, has 1 handler(s) for this service...
+The command completed successfully
