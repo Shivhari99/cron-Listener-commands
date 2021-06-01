@@ -1,0 +1,8 @@
+$ lsnrctl reload
+
+LSNRCTL for Linux: Version 11.1.0.6.0 - Production on 04-APR-2009 17:03:31
+
+Copyright (c) 1991, 2007, Oracle.  All rights reserved.
+
+Connecting to (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.1.2)(PORT=1521)))
+The command completed successfully
